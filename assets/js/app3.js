@@ -32,7 +32,7 @@ var vm = new Vue({
       ],
       designMenus: [
         {
-            id: 4,
+            id: 1,
             salon: "grico",
             stylist: "エザキ ヨシタカ",
             text: "後頭部のフォルムを自然に見せる簡単ショートヘア",
@@ -41,7 +41,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 5,
+            id: 2,
             salon: "ANNE.",
             stylist: "澤野 秀樹",
             text: "骨格をキレイにみせるマッシュショート",
@@ -50,7 +50,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 6,
+            id: 3,
             salon: "GOALD",
             stylist: "中村 トメ吉",
             text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
@@ -62,7 +62,7 @@ var vm = new Vue({
     //   ■ミディアムのカットを学習する
       mediumCuts: [
         {
-            id: 7,
+            id: 1,
             salon: "SHEA.",
             stylist: "坂狩 トモタカ",
             text: "長さを変えずに女性像を変える必見テクニック",
@@ -71,7 +71,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 8,
+            id: 2,
             salon: "suburbia",
             stylist: "石川 ヒデノリ",
             text: "外国人風スタイルを完全攻略！<br>suburbia流のノウハウを一挙公開！",
@@ -83,7 +83,7 @@ var vm = new Vue({
     //   ■ロングのカットを学習する
       longCuts: [
         {
-            id: 9,
+            id: 1,
             salon: "NORA Journey",
             stylist: "田中 衛",
             text: "カウンセリングから導く<br>スタイル提案とテクニック",
@@ -92,7 +92,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 10,
+            id: 2,
             salon: "C・crew",
             stylist: "森田 怜",
             text: "人気の顔まわりスタイル・前髪から繋ぐ<br>レイヤーカット&アレンジ",
@@ -104,7 +104,7 @@ var vm = new Vue({
     //   ■カウンセリングを活かしたカット技術を学ぶ
       counselingCuts: [
         {
-            id: 11,
+            id: 1,
             salon: "Cocoon",
             stylist: "SAKURA",
             text: "ネガティブ要素を取り除く、<br>スタイル提案の極意！",
@@ -113,7 +113,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 12,
+            id: 2,
             salon: "NORA Journey",
             stylist: "田中 衛",
             text: "カウンセリングから導く<br>スタイル提案とテクニック",
@@ -125,7 +125,7 @@ var vm = new Vue({
     //   ■似合わせカットを学習する
       matchingCuts: [
         {
-            id: 13,
+            id: 1,
             salon: "VeLO",
             stylist: "赤松 美和",
             text: "コンプレックスをプラスに変える、<br>似合わせテクニック",
@@ -134,7 +134,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 14,
+            id: 2,
             salon: "salon dakota",
             stylist: "小谷 英智香",
             text: "トータルコーディネイトで魅せる<br>オマージュスタイル",
@@ -146,7 +146,7 @@ var vm = new Vue({
     //   ■外国人風スタイルのカット技術を理解する
       fstyleCuts: [
         {
-            id: 15,
+            id: 1,
             salon: "suburbia",
             stylist: "石川 ヒデノリ",
             text: "外国人風スタイルを完全攻略！<br>suburbia流のノウハウを一挙公開！",
@@ -155,7 +155,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 16,
+            id: 2,
             salon: "C・crew",
             stylist: "森田 怜",
             text: "人気の顔まわりスタイル・前髪から<br>繋ぐレイヤーカット&アレンジ",
@@ -167,7 +167,7 @@ var vm = new Vue({
     //   ■ニースタンダードなカット技術を学習する
       newstandardCuts: [
         {
-            id: 17,
+            id: 1,
             salon: "ABBEY",
             stylist: "小田嶋 信人",
             text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
@@ -176,7 +176,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 18,
+            id: 2,
             salon: "JENO",
             stylist: "堀江 昌樹",
             text: "カット×「TOKIKATA」でつくる<br>モード可愛いミニボブスタイル",
@@ -185,7 +185,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 19,
+            id: 3,
             salon: "Cocoon",
             stylist: "VAN",
             text: "ノンブローカットでつくるシースルーマッシュ",
@@ -197,7 +197,7 @@ var vm = new Vue({
     //   ■リアリティブなレイヤーカットを学ぶ
       layerCuts: [
         {
-            id: 20,
+            id: 1,
             salon: "ABBEY",
             stylist: "松永 英樹",
             text: "ウルフレイヤーで魅せる技術と思考",
@@ -206,7 +206,7 @@ var vm = new Vue({
             url: "#"
            },
            {
-            id: 21,
+            id: 2,
             salon: "PEEK-A-BOO",
             stylist: "福井 達真",
             text: "レイヤーボブ×クリエイティブワーク",
@@ -218,7 +218,7 @@ var vm = new Vue({
         // ■リアリティブなショートカットを学ぶ
         shortCuts: [
             {
-                id: 22,
+                id: 1,
                 salon: "CARNIVAL",
                 stylist: "kazu",
                 text: "なじみ感・フィット感をつくりだす、<br>一発切りショートスタイル",
@@ -227,7 +227,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 23,
+                id: 2,
                 salon: "MINX",
                 stylist: "池戸 裕二",
                 text: "カットで魅せる「トーキョージェンダーレス」",
@@ -239,7 +239,7 @@ var vm = new Vue({
         // "■フォルムコントロールを学ぶ	"
         formControls: [
             {
-                id: 24,
+                id: 1,
                 salon: "grico",
                 stylist: "エザキ ヨシタカ",
                 text: "後頭部のフォルムを自然に見せる<br>簡単ショートヘア",
@@ -248,7 +248,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 25,
+                id: 2,
                 salon: "ABBEY",
                 stylist: "小田嶋 信人",
                 text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
@@ -260,7 +260,7 @@ var vm = new Vue({
         // "■骨格を補正するカット技術を学ぶ	"
         structuralCuts: [
             {
-                id: 26,
+                id: 1,
                 salon: "ANNE",
                 stylist: "澤野 秀樹",
                 text: "骨格をキレイにみせるマッシュショート",
@@ -269,7 +269,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 27,
+                id: 2,
                 salon: "PEEK-A-BOO",
                 stylist: "堀内 邦雄",
                 text: "フォルムを綺麗に見せる、<br>骨格補正を用いたトレンドツーセクション",
@@ -278,7 +278,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 28,
+                id: 3,
                 salon: "GOALD",
                 stylist: "中村 トメ吉",
                 text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
@@ -290,7 +290,7 @@ var vm = new Vue({
         // ■メンズカットを学習する
         mensCuts: [
             {
-                id: 29,
+                id: 1,
                 salon: "GOALD",
                 stylist: "中村 トメ吉",
                 text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
@@ -299,7 +299,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 30,
+                id: 2,
                 salon: "Men's Lapis",
                 stylist: "KUNI",
                 text: "スキンフェードとダレルパーマでつくる<br>フルバックショート",
@@ -308,7 +308,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 31,
+                id: 3,
                 salon: "syn",
                 stylist: "齋藤 正太",
                 text: "トータルケアで創り上げる<br>ジェンダーレススタイル",

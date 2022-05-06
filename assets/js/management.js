@@ -4,7 +4,7 @@ var vm = new Vue({
     // ■サロンマネジメントを学ぶ
     salonManagementMenus: [
       {
-        id: 70,
+        id: 1,
         salon: "Cocoon",
         stylist: "VAN/SAKURA",
         text: "Cocconやお互いについて<br>深掘りしていく指定対談",
@@ -13,7 +13,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 71,
+        id: 2,
         salon: "VeLO",
         stylist: "鳥羽 直泰/赤松 美和",
         text: "二人の世界観を<br>紐解くパートナー対談",
@@ -22,7 +22,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 72,
+        id: 3,
         salon: "SHIMA",
         stylist: "神納 裕貴/金田 和樹",
         text: "「SHIMA」の強さをテーマに、<br>それぞれの思いや考え方を<br>語り合うスタイリスト対談",
@@ -34,7 +34,7 @@ var vm = new Vue({
     // ■セルフマネジメントを学ぶ
     selfManagementMenus: [
       {
-        id: 73,
+        id: 1,
         salon: "SIX",
         stylist: "久保 雄司",
         text: "#クボイズム 美容師の可能性",

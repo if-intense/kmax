@@ -4,7 +4,7 @@ var vm = new Vue({
     // ■ブロー技術をマスターする
     blowMenus: [
       {
-        id: 56,
+        id: 1,
         salon: "SUNVALLEY",
         stylist: "渋谷 謙太郎",
         text: "一流のブローテクニック 　ウィッグ編",
@@ -13,7 +13,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 57,
+        id: 2,
         salon: "SUNVALLEY",
         stylist: "朝日 光輝",
         text: "一流のブローテクニック　実践編",

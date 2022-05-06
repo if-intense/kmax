@@ -4,7 +4,7 @@ var vm = new Vue({
     // ■パーマテクニックを学習する
     permTechniques: [
       {
-        id: 42,
+        id: 1,
         salon: "パーマ理論",
         stylist: null,
         text: null,
@@ -13,7 +13,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 43,
+        id: 2,
         salon: "LOAVE",
         stylist: "佐脇 正徳",
         text: "カット×パーマでつくる<br>柔らか外国人風スタイル",
@@ -22,7 +22,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 44,
+        id: 3,
         salon: "ANTI",
         stylist: "CHO",
         text: "ANTI流、ブリーチパーマでつくる<br>トレンドスタイル",
@@ -34,7 +34,7 @@ var vm = new Vue({
     // ■デジタルパーマを学習する
     digitalPerms: [
       {
-        id: 45,
+        id: 1,
         salon: "パーマ理論",
         stylist: null,
         text: null,
@@ -43,7 +43,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 46,
+        id: 2,
         salon: "MINX",
         stylist: "中野 太郎",
         text: "デジタルパーマでつくる<br>ゆるふわレイヤースタイル",
@@ -52,7 +52,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 47,
+        id: 3,
         salon: "apish ginZa",
         stylist: "藤原 駿",
         text: "ヒットヘア！<br>韓国風リバーススタイルで<br>学ぶカット＆パーマ",
@@ -61,7 +61,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 48,
+        id: 4,
         salon: "MINX",
         stylist: "歳嶋 建国",
         text: "提案の幅が圧倒的に増える、<br>つけデジでつくる<br>ショートパーマデザイン",
@@ -73,7 +73,7 @@ var vm = new Vue({
     // ■毛髪診断からデジタルパーマ提案を学習する
     checkupPermMenus: [
       {
-        id: 49,
+        id: 1,
         salon: "パーマ理論",
         stylist: null,
         text: null,
@@ -82,7 +82,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 50,
+        id: 2,
         salon: "apish ginZa",
         stylist: "藤原 駿",
         text: "ヒットヘア！<br>韓国風リバーススタイルで<br>学ぶカット＆パーマ",
@@ -91,7 +91,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 51,
+        id: 3,
         salon: "MINX",
         stylist: "歳嶋 建国",
         text: "提案の幅が圧倒的に増える、<br>つけデジでつくる<br>ショートパーマデザイン",
@@ -103,7 +103,7 @@ var vm = new Vue({
     // ■外国人風パーマを理解する
     foreignerPermMenus: [
       {
-        id: 52,
+        id: 1,
         salon: "パーマ理論",
         stylist: null,
         text: null,
@@ -112,7 +112,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 53,
+        id: 2,
         salon: "LOAVE",
         stylist: "佐脇 正徳",
         text: "カット×パーマでつくる<br>柔らか外国人風スタイル",
@@ -124,7 +124,7 @@ var vm = new Vue({
     // ■メンズパーマを学習する
     mensPermMenus: [
       {
-        id: 54,
+        id: 1,
         salon: "パーマ理論",
         stylist: null,
         text: null,
@@ -133,7 +133,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 55,
+        id: 2,
         salon: "Men's Lapis",
         stylist: "KUNI",
         text: "スキンフェードとダレルパーマでつくる<br>フルバックショート",

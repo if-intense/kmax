@@ -4,7 +4,7 @@ var vm = new Vue({
         // ■カラーテクニックを学習する
         colorTechniques: [
             {
-                id: 32,
+                id: 1,
                 salon: "カラー理論",
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
@@ -13,7 +13,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 33,
+                id: 2,
                 salon: "suburbia",
                 stylist: "黒柳 剛",
                 text: "外国人風カラーのポイントがこれでわかる！<br>suburbia流ノウハウを完全公開！",
@@ -24,7 +24,7 @@ var vm = new Vue({
           ],
           designColors: [
             {
-                id: 34,
+                id: 1,
                 salon: "カラー理論",
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
@@ -33,7 +33,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 35,
+                id: 2,
                 salon: "Wille",
                 stylist: "志賀 尚之",
                 text: "2.5Dカラーでつくる<br>アニメのキャラクタースタイル",
@@ -42,7 +42,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 36,
+                id: 3,
                 salon: "SHACHU",
                 stylist: "みやち のりよし",
                 text: "みやちのりよし流・<br>感覚でつくる新トレンドカラー",
@@ -54,7 +54,7 @@ var vm = new Vue({
         //   ■ペール系の高明度カラーを学習する
         paleColors: [
             {
-                id: 37,
+                id: 1,
                 salon: "カラー理論",
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
@@ -63,7 +63,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 38,
+                id: 2,
                 salon: "Beleza",
                 stylist: "RYUSEI",
                 text: "ワンブリーチ・リタッチで見せる<br>ハイトーン渋谷トレンド",
@@ -72,7 +72,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 39,
+                id: 3,
                 salon: "iLe",
                 stylist: "酒井元樹",
                 text: "高明度カラーをMAXキレイに見せる<br>必見ブリーチテクニック",
@@ -83,7 +83,7 @@ var vm = new Vue({
         ],
         foreignerColors: [
             {
-                id: 40,
+                id: 1,
                 salon: "カラー理論",
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
@@ -92,7 +92,7 @@ var vm = new Vue({
                 url: "#"
                },
                {
-                id: 41,
+                id: 2,
                 salon: "suburbia",
                 stylist: "黒柳 剛",
                 text: "外国人風カラーのポイントがこれでわかる！<br>suburbia流ノウハウを完全公開！",

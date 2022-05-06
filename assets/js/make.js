@@ -4,7 +4,7 @@ var vm = new Vue({
     // ■撮影現場で通用するヘアメイクを学習する
     locationMenus: [
       {
-        id: 61,
+        id: 1,
         salon: "SUNVALLEY",
         stylist: "朝日光輝",
         text: 'キレイさ倍増！"魅力”を引き出す血色メイク',
@@ -16,7 +16,7 @@ var vm = new Vue({
     // ■サロンスタイルのヘアメイクを学習する
     salonstyleMenus: [
       {
-        id: 62,
+        id: 2,
         salon: "SYAN",
         stylist: "野々口 祐子",
         text: "スマホ撮影で可愛く見せるカットとヘアメイク",
@@ -25,7 +25,7 @@ var vm = new Vue({
         url: "#",
       },
       {
-        id: 63,
+        id: 3,
         salon: "SHEA.",
         stylist: "坂狩 トモタカ",
         text: "長さを変えずに女性像を変える必見テクニック",
