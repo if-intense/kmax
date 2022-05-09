@@ -8,8 +8,8 @@ var vm = new Vue({
         salon: "SUNVALLEY",
         stylist: "渋谷 謙太郎",
         text: "一流のブローテクニック 　ウィッグ編",
-        imgBefore: "#",
-        imgAfter: "#",
+        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
         url: "#",
       },
       {

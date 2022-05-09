@@ -1,6 +1,7 @@
 $kmaxOrange: #f26722;
 $kMaxBlue: rgb(143, 162, 173);
 $kMaxBlack: rgb(9, 5, 4);
+
 * {
   margin: 0;
   padding: 0;
@@ -35,34 +36,39 @@ html {
   bottom: 5.5%;
   right: 3%;
   z-index: 99999;
-  
+
   .register {
     border-radius: 5px;
     padding: 10px 20px;
     background: rgb(42, 144, 141, 0.9);
     box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.62);
+
     a {
       margin-top: auto;
       margin-bottom: auto;
       color: #fff;
       font-weight: bold;
+
       &:hover {
         text-decoration: none;
         color: #fff;
       }
     }
   }
+
   .sample {
     border-radius: 5px;
     padding: 10px 20px;
-    background: rgb(211, 123, 7,0.9);
+    background: rgb(211, 123, 7, 0.9);
     box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.62);
-    margin-bottom:2vh;
+    margin-bottom: 2vh;
+
     a {
       margin-top: auto;
       margin-bottom: auto;
       color: #fff;
       font-weight: bold;
+
       &:hover {
         text-decoration: none;
         color: #fff;
@@ -82,6 +88,7 @@ html {
 .popover {
   border: 2px dotted red;
 }
+
 /* Popover Header */
 .popover-title {
   background-color: #73ad21;
@@ -89,6 +96,7 @@ html {
   font-size: 28px;
   text-align: center;
 }
+
 /* Popover Body */
 .popover-content {
   background-color: coral;
@@ -100,6 +108,7 @@ html {
 section {
   box-sizing: border-box;
 }
+
 .parallax-bg {
   // background: #F26822;
   background-color: $kMaxBlack;
@@ -110,6 +119,7 @@ section {
   justify-content: center;
   align-items: center;
   position: relative;
+
   .nav {
     position: absolute;
     top: 0;
@@ -123,11 +133,13 @@ section {
     align-items: center;
     padding: 8vh 0;
     position: relative;
+
     .top-title {
       .main-logo {
         margin: 8vh auto 2vh;
         width: 75%;
       }
+
       .text-space {
         margin-top: 5vh;
         font-size: 1.25em;
@@ -137,21 +149,24 @@ section {
         color: white;
         text-shadow: 1px 2px 3px #676e72;
         z-index: 999;
-      } 
+      }
     }
   }
+
   .float-image {
-    position:absolute;
-    bottom:0;
-    right:0%;
-    right:0%;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    right: 0%;
     width: 30%;
-   .text {
-     float:left;
-   }
-   .img-right {
-     float:right;
-   }
+
+    .text {
+      float: left;
+    }
+
+    .img-right {
+      float: right;
+    }
   }
 }
 
@@ -166,26 +181,33 @@ section {
     width: 45%;
     margin: 0 auto;
     padding: 6vh 0 3vh;
+
     h1 {
       background: rgba(0, 0, 0, 0.62);
       padding: 1vh 1vw;
     }
   }
+
   .container {
     h3 {
       color: #f26722;
+
       span {
         background: rgba(0, 0, 0, 0.62);
       }
     }
+
     h6 {
+
       // font-size:1.5em;
       span {
         font-size: 1.5em;
         background: rgba(255, 255, 255, 0.8);
       }
     }
+
     .price {
+
       // box-shadow: 1px 3px #676e72;
       .price-t {
         background: #8fa2ad;
@@ -193,35 +215,45 @@ section {
         text-align: center;
         padding: 10px;
       }
+
       .price-b {
         text-align: center;
         background: rgba(255, 255, 255, 1);
         padding: 3vh 0;
+
         p {
           line-height: 2em;
         }
       }
+
       .spec-t {
-        background:rgb(23, 23, 74);
+        background: rgb(23, 23, 74);
         box-shadow: 4px 5px 6px rgb(0 0 0 / 66%);
         // color:rgb(249,43,166);
         text-shadow: #676e72 1px 2px 3px;
+
         // background:rgb(0,0,0);
         // 
         // text-shadow: 1px 1px 1px rgb(62, 62, 62, 0.7);
         @keyframes flicker {
-          0%,50%, 100% {
+
+          0%,
+          50%,
+          100% {
             text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px rgb(211, 207, 93), 0 0 80px rgb(211, 207, 93), 0 0 90px rgb(211, 207, 93), 0 0 100px rgb(211, 207, 93), 0 0 150px rgb(211, 207, 93);
           }
+
           75% {
             text-shadow: none;
           }
         }
+
         .glow {
           animation: flicker 2s infinite alternate;
           color: #fff;
         }
       }
+
       .spec {
         // border:5px solid #b91313;
         // outline: 5px solid rgb(254, 44, 84);
@@ -232,15 +264,17 @@ section {
         outline-offset: -6px;
         border-style: solid;
         // border-image: linear-gradient(to right,#fccdd2, #d65a66) 1;
-        border-image:rgb(60, 61, 61);
-        border-image: linear-gradient(to right,rgb(23, 23, 74), rgb(23, 23, 74)) 1;
+        border-image: rgb(60, 61, 61);
+        border-image: linear-gradient(to right, rgb(23, 23, 74), rgb(23, 23, 74)) 1;
         box-shadow: 4px 5px 6px rgb(0 0 0 / 66%);
+
         a {
-          font-weight:bold;
+          font-weight: bold;
           text-decoration: underline;
-          color:blue;
+          color: blue;
         }
       }
+
       .regular {
         // border:5px solid #b91313;
         // outline: 5px solid rgb(254, 44, 84);
@@ -250,10 +284,11 @@ section {
         border-width: 6px;
         outline-offset: -6px;
         border-style: solid;
-        border-image: linear-gradient(to right,#fff, #fff) 1;
+        border-image: linear-gradient(to right, #fff, #fff) 1;
       }
     }
   }
+
   footer {
     position: relative;
     bottom: 0;
@@ -264,9 +299,11 @@ section {
     background: white;
     padding-top: 5px;
     font-size: 12px;
+
     .left {
       ul {
         list-style-type: none;
+
         li {
           display: inline-block;
           margin-right: 20px;
@@ -284,30 +321,36 @@ section {
   align-items: center;
   justify-content: center;
   padding: 6vh 0;
+
   .info {
     max-width: 450px;
     width: 100%;
     background: rgba(255, 255, 255, 0.8);
     padding: 20px 10px;
     border-radius: 5px;
+
     p {
       font-size: 20px;
       text-align: center;
+
       span {
         font-weight: bold;
         color: #b91313;
-        margin:0 3px;
+        margin: 0 3px;
         font-size: 24px;
       }
     }
+
     .btn {
       width: 100%;
+
       .kmx-register {
         font-size: 20px;
         margin: 10px auto;
         text-align: center;
         background: $kmaxOrange;
         color: #fff;
+
         &:hover {
           background: #fff;
           border: 1px solid $kmaxOrange;
@@ -328,20 +371,21 @@ section {
 
 .bottom {
   background: rgb(62, 62, 62);
-  background: linear-gradient(
-    0deg,
-    rgba(62, 62, 62, 1) 0%,
-    rgba(255, 255, 255, 1) 73%
-  );
+  background: linear-gradient(0deg,
+      rgba(62, 62, 62, 1) 0%,
+      rgba(255, 255, 255, 1) 73%);
+
   .container {
     .row {
       .video-iframe {
         aspect-ratio: 16/9;
         padding: 0;
+
         video {
           width: 100%;
         }
       }
+
       .text-area {
         display: flex;
         align-items: center;
@@ -360,10 +404,12 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+
   .selling-point {
     width: 100%;
     max-width: 1440px;
     margin: 10vh auto;
+
     // background:$kmaxOrange;
     h1 {
       text-align: center;
@@ -371,15 +417,18 @@ section {
       color: #fff;
       text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.62);
     }
+
     .main-points {
       display: flex;
       justify-content: space-between;
+
       .point {
         width: 90%;
         min-width: 256px;
         max-width: 400px;
         border-radius: 0;
         box-shadow: 13px 25px 12px rgba(0, 0, 0, 0.62);
+
         h4 {
           margin-top: 3vh;
         }
@@ -389,24 +438,29 @@ section {
 }
 
 .section04 {
+
   // background:#1E456E;
   .columns-wrapper {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+
     .column {
       // margin: 0 10px;
       background: #fff;
       width: 100%;
       position: relative;
+
       h4 {
         text-align: center;
         margin-top: 5vh;
+
         span {
           display: inline-block;
           border-radius: 50%;
           border: 2px solid;
           margin: 0 10px 0 5px;
+
           // font-size: 32px;
           &:before {
             content: "\200B";
@@ -416,6 +470,7 @@ section {
             padding-bottom: 50%;
             padding-left: 3px;
           }
+
           &:after {
             content: "\200B";
             display: inline-block;
@@ -426,6 +481,7 @@ section {
           }
         }
       }
+
       h6 {
         text-align: center;
         line-height: 2em;
@@ -439,6 +495,7 @@ section {
         bottom: 0;
         left: 0;
       }
+
       // p {
       //   padding:0 20px;
       // }
@@ -448,6 +505,7 @@ section {
         width: 95%;
         margin: 0 auto;
         box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.62);
+
         .category-overlay {
           position: absolute;
           height: 100%;
@@ -455,21 +513,26 @@ section {
           // background:rgb(168,160,136,1);
           z-index: 999;
         }
+
         .category-image {
           padding: 0;
-          background:rgba(109, 109, 109,0.7);
+          background: rgba(109, 109, 109, 0.7);
           aspect-ratio: 16/9;
+
           img {
-            width:100%;
+            width: 100%;
           }
         }
+
         .category-text {
-          padding:5px 10px;
+          padding: 5px 10px;
+
           h5 {
             font-size: 1.5em;
           }
+
           p {
-            font-size:1.25em;
+            font-size: 1.25em;
           }
         }
       }
@@ -479,16 +542,19 @@ section {
 
 .section05 {
   background-color: rebeccapurple;
+
   // padding:5vh auto;
   // height: 100%;
   .text {
     h4 {
       text-align: center;
+
       span {
         display: inline-block;
         border-radius: 50%;
         border: 2px solid;
         margin: 0 10px 0 5px;
+
         // font-size: 32px;
         &:before {
           content: "\200B";
@@ -498,6 +564,7 @@ section {
           padding-bottom: 50%;
           padding-left: 3px;
         }
+
         &:after {
           content: "\200B";
           display: inline-block;
@@ -514,15 +581,18 @@ section {
 .section06 {
   background-color: #8fa2ad;
   padding: 10vh 0;
+
   // height: 50%;
   .text {
     h4 {
       text-align: center;
+
       span {
         display: inline-block;
         border-radius: 50%;
         border: 2px solid;
         margin: 0 10px 0 5px;
+
         // font-size: 32px;
         &:before {
           content: "\200B";
@@ -532,6 +602,7 @@ section {
           padding-bottom: 50%;
           padding-left: 3px;
         }
+
         &:after {
           content: "\200B";
           display: inline-block;
@@ -541,26 +612,31 @@ section {
           padding-right: 3px;
         }
       }
+
       em {
         font-style: normal;
         // padding-bottom:3px;
         text-decoration: underline;
         font-size: 1.5em;
-        padding:5px 20px;
+        padding: 5px 20px;
         background: #1e456e;
-        color:#fff;
+        color: #fff;
       }
     }
   }
+
   .container-fluid {
     .view-settings {
       margin: 7vh auto;
+
       .text-above {
         background: white;
+
         p {
           font-size: 1em;
           margin-bottom: 3px;
         }
+
         h6 {
           font-size: 1.15em;
           background: #1e456e;
@@ -571,29 +647,35 @@ section {
         }
       }
     }
+
     .multi-angle {
       h4 {
         font-size: 2em;
       }
+
       h6 {
         font-size: 1.25em;
         line-height: 1.75em;
         font-weight: normal;
+
         strong {
           font-weight: bold;
           font-size: 1.5em;
         }
+
         em {
           font-size: 1.5em;
           font-style: normal;
           font-weight: bold;
         }
       }
+
       .description {
         ul {
           list-style: none;
+
           li {
-            float:left;
+            float: left;
           }
         }
       }
@@ -614,16 +696,20 @@ body.modal-open {
   background-color: black;
   color: #fff;
   padding: 10vh 0;
+
   // height: 100%;
   .text {
     margin-bottom: 5vh;
+
     h4 {
       text-align: center;
+
       span {
         display: inline-block;
         border-radius: 50%;
         border: 2px solid;
         margin: 0 10px 0 5px;
+
         // font-size: 32px;
         &:before {
           content: "\200B";
@@ -633,6 +719,7 @@ body.modal-open {
           padding-bottom: 50%;
           padding-left: 3px;
         }
+
         &:after {
           content: "\200B";
           display: inline-block;
@@ -644,24 +731,29 @@ body.modal-open {
       }
     }
   }
+
   .container {
     .phone-only {
       display: none;
     }
+
     .rank {
       h4 {
         text-decoration: underline;
         margin: 9vh auto 1vh;
       }
     }
+
     .curriculum {
       color: #000;
       background: #fff;
       margin: 8vh auto;
+
       .drop-select {
         display: flex;
         justify-content: center;
         align-items: center;
+
         .field {
           h5 {
             font-size: 1.25em;
@@ -669,10 +761,12 @@ body.modal-open {
             padding: 5px;
             color: #fff;
             margin: 0;
+
             span {
               font-size: 0.8em;
             }
           }
+
           p {
             border-left: #9a9a9a 1px solid;
             border-bottom: #9a9a9a 1px solid;
@@ -680,7 +774,9 @@ body.modal-open {
           }
         }
       }
+
       .display-contents {
+
         // height:100%;
         .type {
           background: rgb(168, 160, 136);
@@ -688,6 +784,7 @@ body.modal-open {
           box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.62);
           padding: 10px 20px;
           z-index: 5;
+
           .stamp {
             background: #fff;
             border-radius: 10%;
@@ -695,14 +792,17 @@ body.modal-open {
             // box-shadow: 3px 3px 6px rgba(0,0,0,0.62);
           }
         }
+
         h6 {
           margin: 5vh 0 1vh;
         }
+
         .inner-text {
           background: #fff;
           padding: 5px;
         }
       }
+
       .display-contents.cut-tr-perm {
         display: block;
       }
@@ -716,6 +816,7 @@ body.modal-open {
       display: flex;
       align-items: center;
       justify-content: center;
+
       .text {
         h4 {
           text-align: center;
@@ -723,12 +824,15 @@ body.modal-open {
         }
       }
     }
+
     .video-iframe {
       padding: 0;
       box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.62);
+
       video {
         width: 100%;
       }
+
       // aspect-ratio: 16/9;
     }
   }
@@ -744,19 +848,23 @@ body.modal-open {
     background-size: cover;
     padding: 8vh 0;
     color: white;
+
     .overlay-text {
       h3 {
         font-size: 2.5em;
         margin-bottom: 4vh;
       }
+
       p {
         font-size: 1.25em;
+
         span.p-top {
           font-weight: bold;
           border-bottom: 2px solid rgb(252, 106, 3);
           font-size: 1.5em;
           padding: 0 3px 2px;
         }
+
         span.p-bottom {
           font-weight: bold;
           border-bottom: 2px solid rgb(252, 106, 3);
@@ -764,15 +872,18 @@ body.modal-open {
           padding: 0 3px 2px;
         }
       }
+
       .the-japan {
         color: rgb(252, 106, 3);
         padding-bottom: 3px;
         border-bottom: 3px solid rgb(255, 255, 255);
       }
+
       .the-task {
         padding-bottom: 3px;
         border-bottom: 3px solid rgb(252, 106, 3);
       }
+
       h5 {
         font-size: 3em;
       }
@@ -786,21 +897,26 @@ body.modal-open {
     padding: 4vh 0;
     color: rgb(255, 255, 255);
     text-align: center;
+
     h2 {
       font-size: 2.5em;
       text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.62);
     }
   }
+
   .container {
     padding: 6vh 0;
+
     ul {
       padding: 0;
       list-style: none;
+
       li {
         font-size: 1.25em;
         line-height: 1.5em;
         padding-bottom: 3px;
         border-bottom: 1px dotted #9a9a9a;
+
         // text-align: center;
         span {
           font-weight: bold;
@@ -812,6 +928,7 @@ body.modal-open {
         }
       }
     }
+
     p {
       font-size: 1.25em;
       font-weight: bold;
@@ -823,19 +940,22 @@ body.modal-open {
 
 .price-modal-body {
   p.price-tag {
-    font-size:1.25em;
+    font-size: 1.25em;
     text-align: center;
+
     strong {
-      color:#000;
+      color: #000;
     }
+
     span {
-      color:#b91313;
+      color: #b91313;
       font-weight: 600;
     }
+
     em {
       font-size: 0.75em;
       font-style: normal;
-      color:#b91313;
+      color: #b91313;
     }
   }
 }
@@ -843,21 +963,34 @@ body.modal-open {
 
 
 .section13 {
+  padding: 4vh 0;
+  background: rgb(103, 110, 114);
+  background: linear-gradient(180deg, rgba(103, 110, 114, 1) 0%, rgba(230, 224, 224, 1) 100%);
+
   * {
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
   }
+
   .accordion {
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
   }
-  .accordion h1, h2, h3, h4 {
+
+  .accordion h1,
+  h2,
+  h3,
+  h4 {
     cursor: pointer;
   }
-  .accordion h2, h3, h4 {
+
+  .accordion h2,
+  h3,
+  h4 {
     font-family: "News Cycle";
   }
+
   .accordion h1 {
     padding: 15px 20px;
     background-color: #333;
@@ -866,49 +999,62 @@ body.modal-open {
     font-weight: normal;
     color: #1abc9c;
   }
+
   .accordion h1:hover {
     color: #4afcdc;
   }
+
   .accordion h1:first-child {
     border-radius: 10px 10px 0 0;
   }
+
   .accordion h1:last-of-type {
     border-radius: 0 0;
   }
+
   .accordion h1:not(:last-of-type) {
     border-bottom: 1px dotted #1abc9c;
   }
-  .accordion div, .accordion p {
+
+  .accordion div,
+  .accordion p {
     display: none;
   }
+
   .accordion h2 {
     padding: 10px 25px;
     background-color: rgb(207, 13, 133);
-    border-bottom:1px dotted #676e72;
+    border-bottom: 1px dotted #676e72;
     font-size: 1.1rem;
     color: #fff;
   }
+
   .accordion h2:hover {
     background-color: rgb(230, 82, 173);
   }
+
   .accordion h3 {
     padding: 10px 30px;
     background-color: rgb(251, 122, 140);
     font-size: .9rem;
-    color: #000; 
+    color: #000;
   }
+
   .accordion h3:hover {
     background-color: rgb(253, 149, 163);
   }
+
   .accordion h4 {
     padding: 15px 35px;
     background-color: rgb(239, 144, 86);
     font-size: .9rem;
-    color: #fff; 
+    color: #fff;
   }
+
   .accordion h4:hover {
     background-color: rgb(255, 131, 54);
   }
+
   .accordion .desc {
     padding: 15px 10px;
     background-color: rgb(255, 255, 255);
@@ -917,17 +1063,19 @@ body.modal-open {
     line-height: 1.3rem;
     text-align: center;
   }
+
   .accordion .desc a {
     text-decoration: none;
     font-size: 16px;
-    color:#000;
+    color: #000;
     line-height: 2em;
   }
 
   .accordion .desc a strong {
     font-size: 1.25em;
-    padding-right:5px;
+    padding-right: 5px;
   }
+
   .accordion .desc a span {
     font-weight: bold;
     text-decoration: underline;
@@ -936,15 +1084,16 @@ body.modal-open {
   .accordion .desc a em {
     font-size: 1.5em;
     font-style: normal;
-    color:#F16821;
-    background:#000;
+    color: #F16821;
+    background: #000;
     line-height: 3em;
-    padding:5px 10px;
+    padding: 5px 10px;
   }
+
   .accordion .opened-for-codepen {
     display: block;
   }
-    
+
 }
 
 
@@ -954,7 +1103,7 @@ body.modal-open {
       .view-settings {
         .text-above {
           h6 {
-            font-size:1em;
+            font-size: 1em;
           }
         }
       }
@@ -970,10 +1119,12 @@ body.modal-open {
 
 @media screen and (max-width: 1200px) {
   .section03 {
+
     // justify-content: space-between;
     .selling-point {
       max-width: 1200px;
       margin: 10vh 0;
+
       .main-points {
         .point {
           width: 100%;
@@ -982,24 +1133,29 @@ body.modal-open {
       }
     }
   }
+
   .section04 {
     .columns-wrapper {
       display: flex;
       flex-direction: column;
       align-items: 1;
+
       .column {
         // margin: 0 10px;
         background: #fff;
         width: 100%;
         position: relative;
+
         h4 {
           text-align: center;
           margin-top: 5vh;
+
           span {
             display: inline-block;
             border-radius: 50%;
             border: 2px solid;
             margin: 0 10px 0 5px;
+
             // font-size: 32px;
             &:before {
               content: "\200B";
@@ -1009,6 +1165,7 @@ body.modal-open {
               padding-bottom: 50%;
               padding-left: 3px;
             }
+
             &:after {
               content: "\200B";
               display: inline-block;
@@ -1019,6 +1176,7 @@ body.modal-open {
             }
           }
         }
+
         h6 {
           text-align: center;
           line-height: 2em;
@@ -1032,13 +1190,15 @@ body.modal-open {
           bottom: 0;
           left: 0;
         }
+
         .category {
           background: rgb(201, 183, 131);
           position: relative;
+
           .category-text {
             p {
-              font-size:1.15em;
-              padding:0 10px;
+              font-size: 1.15em;
+              padding: 0 10px;
             }
           }
         }
@@ -1056,6 +1216,7 @@ body.modal-open {
           }
         }
       }
+
       h6 {
         span {
           font-size: 1.25em;
@@ -1089,7 +1250,7 @@ body.modal-open {
       .view-settings {
         .text-above {
           h6 {
-            font-size:0.9em;
+            font-size: 0.9em;
           }
         }
       }
@@ -1105,16 +1266,19 @@ body.modal-open {
 
 @media screen and (max-width: 992px) {
   .section03 {
+
     // justify-content: space-between;
     .selling-point {
       max-width: 100%;
       padding: 0 10px;
       margin: 10vh 0;
+
       .main-points {
         .point {
           h4 {
             font-size: 1.1em;
           }
+
           p {
             font-size: 0.9em;
           }
@@ -1128,12 +1292,15 @@ body.modal-open {
       .column {
         .container {
           max-width: 992px;
+
           .category {
             .category-text {
               padding: 5px 10px 0;
+
               h5 {
                 font-size: 1.3em;
               }
+
               p {
                 font-size: 1em;
               }
@@ -1150,9 +1317,10 @@ body.modal-open {
         p {
           font-size: 1em;
         }
+
         .text-above {
           h6 {
-            font-size:1.25em;
+            font-size: 1.25em;
           }
         }
       }
@@ -1221,6 +1389,7 @@ body.modal-open {
     right: 5%;
     z-index: 999;
     background: $kmaxOrange;
+
     a {
       color: rgba(255, 255, 255, 1);
     }
@@ -1255,27 +1424,33 @@ body.modal-open {
         text-align: center;
         margin-bottom: 90px;
       }
+
       .main-points {
         display: flex;
         flex-direction: column;
+
         .point {
           margin: 2vh auto;
         }
       }
     }
   }
+
   .section04 {
     .columns-wrapper {
       .column {
         .container {
           .outer {
             margin: 0 auto;
+
             .category {
               .category-text {
                 padding: 12px;
+
                 h5 {
                   font-size: 1.5em;
                 }
+
                 p {
                   padding: 0;
                   font-size: 1.25em;
@@ -1308,6 +1483,7 @@ body.modal-open {
           }
         }
       }
+
       h6 {
         span {
           font-size: 1.1em;
@@ -1323,7 +1499,7 @@ body.modal-open {
       .view-settings {
         .text-above {
           h6 {
-            font-size:1.1em;
+            font-size: 1.1em;
           }
         }
       }
@@ -1335,18 +1511,19 @@ body.modal-open {
     position: fixed;
     bottom: 2%;
     right: 0.75%;
-    left:0.75%;
-    
+    left: 0.75%;
+
     .register {
-      width:48%;
+      width: 48%;
       // margin:0 auto;
-      float:right;
-      font-size:0.9em;
+      float: right;
+      font-size: 0.9em;
     }
+
     .sample {
-      width:48%;
+      width: 48%;
       float: left;
-      font-size:0.9em;
+      font-size: 0.9em;
     }
   }
 }
@@ -1357,10 +1534,10 @@ body.modal-open {
       .column {
         .container {
           #program {
-            width:100%;
+            width: 100%;
             // max-width:610px;
-            margin:0 auto;
-            
+            margin: 0 auto;
+
           }
         }
       }
@@ -1371,11 +1548,13 @@ body.modal-open {
 
 @media screen and (max-width: 576px) {
   .parallax-bg-bottom {
+
     // overflow-y: scroll;
     footer {
       margin-top: 10vh;
       position: relative;
       flex-direction: column;
+
       .left,
       .right,
       .middle {
@@ -1388,7 +1567,7 @@ body.modal-open {
     .float-image {
       width: 50%;
       // left:0;
-      
+
     }
   }
 
@@ -1412,9 +1591,11 @@ body.modal-open {
             .category {
               .category-text {
                 padding: 10px;
+
                 h5 {
                   font-size: 1.5em;
                 }
+
                 p {
                   font-size: 1.05em;
                 }
@@ -1434,6 +1615,7 @@ body.modal-open {
 
   .section02 {
     padding: 40px 10px;
+
     .info {
       max-width: 450px;
       width: 100%;
@@ -1447,30 +1629,37 @@ body.modal-open {
     display: flex;
     align-items: center;
     justify-content: center;
+
     .selling-point {
       width: 100%;
       // max-width:1600px;
       margin: 5vh auto 10vh;
+
       // background:$kmaxOrange;
       h1 {
         text-align: center;
         margin: 5vh 0;
         font-size: 2em;
       }
+
       .main-points {
         display: flex;
         flex-direction: column;
+
         .point {
           width: 90%;
           // max-width:420px;
           border-radius: 0;
           margin: 6vh auto;
           box-shadow: 13px 25px 12px rgba(0, 0, 0, 0.62);
+
           .card-body {
             padding: 0.75rem;
+
             h4 {
               margin-top: 3vh;
             }
+
             p {
               line-height: 2em;
             }
@@ -1484,6 +1673,7 @@ body.modal-open {
     .columns-wrapper {
       .column {
         margin: 2vh auto;
+
         h6 {
           font-size: 1em;
         }
@@ -1494,18 +1684,22 @@ body.modal-open {
   .section06 {
     // background-color:yellow;
     padding: 6vh 0;
+
     .container-fluid {
       .text {
         margin-bottom: 4vh;
       }
+
       .view-settings {
         width: 90%;
         margin: 10px auto;
+
         p {
           font-weight: bold;
         }
       }
     }
+
     .text {
       h4 {
         em {
@@ -1532,38 +1726,46 @@ body.modal-open {
         font-size: 2em;
       }
     }
+
     .container {
       ul {
         li {
           font-size: 1.1em;
         }
       }
+
       p {
         font-size: 1.1em;
       }
     }
   }
+
   .parallax-bg-bottom {
     overflow-y: scroll;
+
     // height:200%;
     // padding:3vh 0;
     .container {
       padding-left: 0;
       padding-right: 0;
+
       .price {
         width: 85%;
         margin: 10px auto;
       }
+
       h6 {
         span {
           font-size: 1em;
         }
       }
     }
+
     footer {
       margin-top: 10vh;
       position: relative;
       flex-direction: column;
+
       .left,
       .right,
       .middle {
@@ -1574,17 +1776,17 @@ body.modal-open {
 }
 
 @media screen and (max-width: 500px) {
-  
+
   .section04 {
     .columns-wrapper {
       .column {
         .container {
-          padding:0;
+          padding: 0;
         }
       }
     }
   }
-  
+
   .section06 {
     .text {
       h4 {
@@ -1620,6 +1822,7 @@ body.modal-open {
           .category {
             .category-text {
               padding: 10px 10px 0;
+
               p {
                 padding: 0;
               }
@@ -1635,7 +1838,7 @@ body.modal-open {
       h4 {
         em {
           font-size: 1.15em;
-          padding:5px 10px;
+          padding: 5px 10px;
         }
       }
     }
@@ -1657,12 +1860,14 @@ body.modal-open {
         font-size: 2em;
       }
     }
+
     .container {
       ul {
         li {
           font-size: 1em;
         }
       }
+
       p {
         font-size: 1em;
       }
@@ -1675,6 +1880,7 @@ body.modal-open {
     .info {
       p {
         font-size: 16px;
+
         span {
           font-size: 1.25em;
         }
@@ -1688,16 +1894,21 @@ body.modal-open {
         h6 {
           font-size: 1.1em;
         }
+
         .container {
-          padding:0;
+          padding: 0;
+
           .outer {
             padding: 0;
+
             .category {
               .category-text {
                 padding: 10px 10px 0;
+
                 h5 {
                   font-size: 1.3em;
                 }
+
                 p {
                   font-size: 1.15em;
                 }
@@ -1712,26 +1923,32 @@ body.modal-open {
   .section06 {
     .container-fluid {
       .multi-angle {
-        margin-top:10vh;
+        margin-top: 10vh;
+
         h4 {
           font-size: 1.25em;
         }
+
         h6 {
           font-size: 0.85em;
           line-height: 1.75em;
           font-weight: normal;
+
           strong {
             font-weight: bold;
             font-size: 1.25em;
           }
         }
+
         .description {
           .points {
             border-top: #000 dotted 1px;
-            padding-top:10px;
+            padding-top: 10px;
+
             h5 {
               font-size: 1em;
             }
+
             p {
               font-size: 0.9em;
             }
@@ -1748,9 +1965,11 @@ body.modal-open {
           font-size: 1.65em;
           padding-bottom: 3px;
         }
+
         h5 {
           font-size: 2em;
         }
+
         p {
           font-size: 1.1em;
         }
@@ -1781,9 +2000,11 @@ body.modal-open {
             .category {
               .category-text {
                 padding: 8px 8px 0;
+
                 h5 {
                   font-size: 1.25em;
                 }
+
                 p {
                   font-size: 1.05em;
                 }
@@ -1802,7 +2023,7 @@ body.modal-open {
       h4 {
         em {
           font-size: 1.2em;
-          padding:5px 7px;
+          padding: 5px 7px;
         }
       }
     }
@@ -1818,9 +2039,11 @@ body.modal-open {
             .category {
               .category-text {
                 padding: 5px 5px 0;
+
                 h5 {
                   font-size: 1.5em;
                 }
+
                 p {
                   font-size: 0.95em;
                 }
@@ -1859,7 +2082,7 @@ body.modal-open {
 
 
 @media screen and (max-width: 400px) {
-  
+
 
   .section10 {
     .sect10-top-strip {
@@ -1887,6 +2110,7 @@ body.modal-open {
     .info {
       p {
         font-size: 16px;
+
         span {
           font-size: 1.25em;
         }
@@ -1908,14 +2132,17 @@ body.modal-open {
         h4 {
           font-size: 1.25em;
         }
+
         .container {
           .outer {
             .category {
               .category-text {
                 padding: 5px 5px 0;
+
                 h5 {
                   font-size: 1.1em;
                 }
+
                 p {
                   font-size: 0.9em;
                 }
@@ -1943,6 +2170,7 @@ body.modal-open {
         h3 {
           font-size: 1.4em;
         }
+
         p {
           font-size: 0.9em;
         }
@@ -1957,15 +2185,16 @@ body.modal-open {
           font-size: 0.7em;
         }
       }
+
       .price {
-        width:90%;
+        width: 90%;
       }
     }
   }
 
   .price-modal-body {
     p {
-      font-size:0.9em;
+      font-size: 0.9em;
     }
   }
 }
@@ -1975,6 +2204,7 @@ body.modal-open {
     .info {
       p {
         font-size: 14px;
+
         span {
           font-size: 1.25em;
         }
@@ -1988,6 +2218,7 @@ body.modal-open {
         h6 {
           font-size: 0.9em;
         }
+
         .container {
           .outer {
             .category {
@@ -2031,6 +2262,7 @@ body.modal-open {
         font-size: 1.25em;
       }
     }
+
     .container {
       p {
         font-size: 0.85em;

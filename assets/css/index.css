@@ -730,6 +730,11 @@ body.modal-open {
   color: #b91313;
 }
 
+.section13 {
+  padding: 4vh 0;
+  background: #676e72;
+  background: linear-gradient(180deg, #676e72 0%, #e6e0e0 100%);
+}
 .section13 * {
   margin: 0;
   padding: 0;
@@ -739,10 +744,15 @@ body.modal-open {
   max-width: 600px;
   margin: 20px auto;
 }
-.section13 .accordion h1, .section13 h2, .section13 h3, .section13 h4 {
+.section13 .accordion h1,
+.section13 h2,
+.section13 h3,
+.section13 h4 {
   cursor: pointer;
 }
-.section13 .accordion h2, .section13 h3, .section13 h4 {
+.section13 .accordion h2,
+.section13 h3,
+.section13 h4 {
   font-family: "News Cycle";
 }
 .section13 .accordion h1 {
@@ -765,7 +775,8 @@ body.modal-open {
 .section13 .accordion h1:not(:last-of-type) {
   border-bottom: 1px dotted #1abc9c;
 }
-.section13 .accordion div, .section13 .accordion p {
+.section13 .accordion div,
+.section13 .accordion p {
   display: none;
 }
 .section13 .accordion h2 {

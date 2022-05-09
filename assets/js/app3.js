@@ -66,8 +66,8 @@ var vm = new Vue({
             salon: "SHEA.",
             stylist: "坂狩 トモタカ",
             text: "長さを変えずに女性像を変える必見テクニック",
-            imgBefore: "#",
-            imgAfter: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
            },
            {
@@ -96,7 +96,7 @@ var vm = new Vue({
             salon: "C・crew",
             stylist: "森田 怜",
             text: "人気の顔まわりスタイル・前髪から繋ぐ<br>レイヤーカット&アレンジ",
-            imgBefore: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
             imgAfter: "#",
             url: "#"
            },
@@ -117,8 +117,8 @@ var vm = new Vue({
             salon: "NORA Journey",
             stylist: "田中 衛",
             text: "カウンセリングから導く<br>スタイル提案とテクニック",
-            imgBefore: "#",
-            imgAfter: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
            },
       ],
@@ -150,8 +150,8 @@ var vm = new Vue({
             salon: "suburbia",
             stylist: "石川 ヒデノリ",
             text: "外国人風スタイルを完全攻略！<br>suburbia流のノウハウを一挙公開！",
-            imgBefore: "#",
-            imgAfter: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
            },
            {
@@ -159,8 +159,8 @@ var vm = new Vue({
             salon: "C・crew",
             stylist: "森田 怜",
             text: "人気の顔まわりスタイル・前髪から<br>繋ぐレイヤーカット&アレンジ",
-            imgBefore: "#",
-            imgAfter: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
            },
       ],
@@ -171,8 +171,8 @@ var vm = new Vue({
             salon: "ABBEY",
             stylist: "小田嶋 信人",
             text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
-            imgBefore: "#",
-            imgAfter: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
            },
            {
@@ -210,8 +210,8 @@ var vm = new Vue({
             salon: "PEEK-A-BOO",
             stylist: "福井 達真",
             text: "レイヤーボブ×クリエイティブワーク",
-            imgBefore: "#",
-            imgAfter: "#",
+            imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+            imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
             url: "#"
            }
         ],
@@ -243,8 +243,8 @@ var vm = new Vue({
                 salon: "grico",
                 stylist: "エザキ ヨシタカ",
                 text: "後頭部のフォルムを自然に見せる<br>簡単ショートヘア",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -252,8 +252,8 @@ var vm = new Vue({
                 salon: "ABBEY",
                 stylist: "小田嶋 信人",
                 text: "シルエットを綺麗に見せる<br>ニューベーシックショート",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                }
         ],
@@ -264,8 +264,8 @@ var vm = new Vue({
                 salon: "ANNE",
                 stylist: "澤野 秀樹",
                 text: "骨格をキレイにみせるマッシュショート",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -273,8 +273,8 @@ var vm = new Vue({
                 salon: "PEEK-A-BOO",
                 stylist: "堀内 邦雄",
                 text: "フォルムを綺麗に見せる、<br>骨格補正を用いたトレンドツーセクション",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -282,8 +282,8 @@ var vm = new Vue({
                 salon: "GOALD",
                 stylist: "中村 トメ吉",
                 text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
         ],
@@ -294,8 +294,8 @@ var vm = new Vue({
                 salon: "GOALD",
                 stylist: "中村 トメ吉",
                 text: "機能性と再現性を実現する、<br>骨格を活かしたボックス型スクエアショート",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -303,8 +303,8 @@ var vm = new Vue({
                 salon: "Men's Lapis",
                 stylist: "KUNI",
                 text: "スキンフェードとダレルパーマでつくる<br>フルバックショート",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {

@@ -8,8 +8,8 @@ var vm = new Vue({
                 salon: "カラー理論",
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -28,8 +28,8 @@ var vm = new Vue({
                 salon: "カラー理論",
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
-                imgBefore: "#",
-                imgAfter: "#",
+                imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -47,7 +47,7 @@ var vm = new Vue({
                 stylist: "みやち のりよし",
                 text: "みやちのりよし流・<br>感覚でつくる新トレンドカラー",
                 imgBefore: "#",
-                imgAfter: "#",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                }
           ],
@@ -59,7 +59,7 @@ var vm = new Vue({
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
                 imgBefore: "#",
-                imgAfter: "#",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -77,7 +77,7 @@ var vm = new Vue({
                 stylist: "酒井元樹",
                 text: "高明度カラーをMAXキレイに見せる<br>必見ブリーチテクニック",
                 imgBefore: "#",
-                imgAfter: "#",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                }
         ],
@@ -88,7 +88,7 @@ var vm = new Vue({
                 stylist: null,
                 text: "確実に狙った色を出すための薬剤知識・<br>日本人のアンダートーンを知る・<br>ヘアカラーの色彩学",
                 imgBefore: "#",
-                imgAfter: "#",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                },
                {
@@ -97,7 +97,7 @@ var vm = new Vue({
                 stylist: "黒柳 剛",
                 text: "外国人風カラーのポイントがこれでわかる！<br>suburbia流ノウハウを完全公開！",
                 imgBefore: "#",
-                imgAfter: "#",
+                imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
                 url: "#"
                }
         ]
