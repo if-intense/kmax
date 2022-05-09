@@ -3,15 +3,17 @@ var vm = new Vue({
   data: {
     // ■クリエイティブワークを理解する
     creativeMenus: [
+      // 58
       {
         id: 1,
         salon: "STRAMA",
         stylist: "豊田 永秀",
         text: "クリエイティブワークで魅せるビックシルエット",
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: "assets/images/before-after/kmax_before&after_58-after.png",
+                imgAfter: "assets/images/before-after/kmax_before&after_58-before.png",
         url: "#",
       },
+      // 59
       {
         id: 2,
         salon: "PEEK-A-BOO",
@@ -21,6 +23,7 @@ var vm = new Vue({
         imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
         url: "#",
       },
+      // 60
       {
         id: 3,
         salon: "LONESS",

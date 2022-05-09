@@ -3,18 +3,20 @@ var vm = new Vue({
   data: {
     // ■撮影現場で通用するヘアメイクを学習する
     locationMenus: [
+      // 61
       {
         id: 1,
         salon: "SUNVALLEY",
         stylist: "朝日光輝",
         text: 'キレイさ倍増！"魅力”を引き出す血色メイク',
-        imgBefore: "https://dummyimage.com/150x150/cf0d85/fff.png&text=Before",
-        imgAfter: "https://dummyimage.com/150x150/ef9056/fff.png&text=after",
+        imgBefore: "assets/images/before-after/kmax_before&after_61-after.png",
+                imgAfter: "assets/images/before-after/kmax_before&after_61-before.png",
         url: "#",
       },
     ],
     // ■サロンスタイルのヘアメイクを学習する
     salonstyleMenus: [
+      // 62
       {
         id: 2,
         salon: "SYAN",
@@ -24,6 +26,7 @@ var vm = new Vue({
         imgAfter: "assets/images/before-after/kmax_before&after_62-before.png",
         url: "#",
       },
+      // 63 (7)
       {
         id: 3,
         salon: "SHEA.",

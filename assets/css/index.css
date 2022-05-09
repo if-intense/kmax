@@ -781,27 +781,31 @@ body.modal-open {
 }
 .section13 .accordion h2 {
   padding: 10px 25px;
-  background-color: #cf0d85;
+  background-color: #f4f4f4;
   border-bottom: 1px dotted #676e72;
   font-size: 1.1rem;
-  color: #fff;
+  color: black;
+  margin: 5px 0;
+  box-shadow: 1pxx 3px 6px rgba(0, 0, 0, 0.33);
+  border: 1px solid #323232;
+  border-radius: 5px;
 }
 .section13 .accordion h2:hover {
-  background-color: #e652ad;
+  background-color: #d7892f;
 }
 .section13 .accordion h3 {
-  padding: 10px 30px;
-  background-color: #fb7a8c;
-  font-size: 0.9rem;
+  padding: 20px 30px;
+  background-color: #f5ad1b;
+  font-size: 1em;
   color: #000;
 }
 .section13 .accordion h3:hover {
-  background-color: #fd95a3;
+  background-color: rgba(244, 123, 9, 0.889);
 }
 .section13 .accordion h4 {
   padding: 15px 35px;
-  background-color: #ef9056;
-  font-size: 0.9rem;
+  background-color: #b87d09;
+  font-size: 1em;
   color: #fff;
 }
 .section13 .accordion h4:hover {
